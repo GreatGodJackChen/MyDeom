@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.489
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadDeom", "ThreadDeom\ThreadDeom.csproj", "{26B4D0EF-1CCC-4257-8478-652A2D17392C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadDeom", "ThreadDeom\ThreadDeom.csproj", "{26B4D0EF-1CCC-4257-8478-652A2D17392C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeDeom", "AttributeDeom\AttributeDeom.csproj", "{B4FD9642-0FAA-4551-AFE8-087C7428F28B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttributeDeom", "AttributeDeom\AttributeDeom.csproj", "{B4FD9642-0FAA-4551-AFE8-087C7428F28B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asyncawait", "asyncawait\asyncawait.csproj", "{724D2723-2CA8-4B0E-BE4A-F9C684D8E565}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B4FD9642-0FAA-4551-AFE8-087C7428F28B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4FD9642-0FAA-4551-AFE8-087C7428F28B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4FD9642-0FAA-4551-AFE8-087C7428F28B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724D2723-2CA8-4B0E-BE4A-F9C684D8E565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724D2723-2CA8-4B0E-BE4A-F9C684D8E565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724D2723-2CA8-4B0E-BE4A-F9C684D8E565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724D2723-2CA8-4B0E-BE4A-F9C684D8E565}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
